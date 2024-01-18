@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+}
+
+.container{
+    /* display: flex; */
+    /* background-color: rgb(248, 245, 245); */
+    background-image: url(https://images.pexels.com/photos/5929927/pexels-photo-5929927.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+    object-fit: cover;
+    background-image: linear-gradient(to right, black , rgb(17, 14, 37));
+}
+
+.navbar{
+    display: flex;
+    /* padding: 20px 40px; */
+    margin: 0px 40px;
+   
+}
+
+.logo{
+    display: flex;
+}
+
+.logo h4{
+    font-size: 40px;
+    padding-top: 3px;
+}
+
+.logo img{
+    height: 60px;
+    border-radius: 50%;
+
+}
+
+.menu{
+    padding-left: 384px;
+
+}
+
+.menu li{
+    display: flex;
+    gap: 30px;
+    margin: 20px 30px;
+    font-size: 21px;
+}
+
+.menu li a{
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.account{
+    display: flex;
+    margin: 18px 0px;
+}
+
+.account i{
+    margin: 6px 3px;
+}
+
+
+.box{
+    display: flex;
+}
+
+#green{
+    color: green;
+}
+
+.right{
+
+    margin-top: 100px;
+    margin-left: 20px;
+    padding: 0px 100px;
+    width: 65%;
+
+}
+
+.right h1{
+    font-size: 53px;
+    font-weight: 500;
+}
+
+.right h5{
+    margin-top: 30px;
+}
+
+.get{
+    margin: 40px 0px;
+   
+}
+.get button{
+ border: none;
+ border: 1px solid green;
+ padding: 10px 20px;
+ border-radius: 30px;
+ font-size: 23px;
+ color: green;
+ background-color: black;
+    
+}
+
+.get button i{
+    background-color: green;
+    border-radius: 50%;
+    font-size: 25px;
+
+
+}
+
+
+.left img{
+    width: 400px;
+    margin-top: 120px;
+    margin-left: 20px;
+
+}
+
+.sign{
+    font-size: 30px;
+    transform: rotateY('30');
+}
+
+
+.he:hover{
+    scale: 1.2;
+    box-shadow: 2px white ;
+    transition: 1.3s all ease-in-out;
+}
