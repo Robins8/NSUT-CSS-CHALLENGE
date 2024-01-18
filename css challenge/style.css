@@ -136,3 +136,7 @@
     box-shadow: 2px white ;
     transition: 1.3s all ease-in-out;
 }
+
+.green1{
+    color: green;
+}
